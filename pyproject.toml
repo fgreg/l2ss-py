@@ -11,7 +11,7 @@
 # persons.
 
 [tool.poetry]
-name = "podaac-subsetter"
+name = "l2ss-py"
 version = "1.0.0-alpha.0"
 description = "L2 Subsetter Service"
 authors = ["podaac-tva <podaac-tva@jpl.nasa.gov>"]
@@ -27,7 +27,7 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = "~3.7"
+python = "^3.7"
 netCDF4 = "^1.5"
 xarray ="^.18"
 geopandas ="0.6.1"
